@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{background-color: antiquewhite;}
+nav{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Varela Round', sans-serif; */
+
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height:65px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:1rem;
+}
+.brand img{width:44px;
+    padding:0.5rem;
+}
+.brand{
+    display:flex;
+    align-items: center;
+font-weight: bolder;
+font-size:1.3rem;
+}
+.container{
+    min-height:65vh ;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin:23px auto;
+    width:60rem;
+    background-image:url("bg.jpg");
+    background-size: cover;
+    padding:20px;
+}
+.bottom{ 
+   position:sticky; 
+   height:80px;
+   background-color: black;
+   bottom:0;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color:white;
+   flex-direction: column;
+   }
+   .icons{
+    margin-top:0.5rem;
+   }
+   .icons i{cursor: pointer;}
+#myprogressbar{
+    width: 120vh;
+    cursor: pointer;
+}
+.songitem{
+    display: flex;
+    height:40px;
+    background-color: white;
+    color:black;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    margin:15px 0;
+}
+.timestamp{margin:0 10px;}
+
+.songitem i{cursor:pointer;
+margin:5px;}
+.songitem img{
+    height: 50px;
+    width:50px;
+    margin:0 20px;
+    border-radius: 50px;
+}
+.songitemcontainer{
+margin:30px 0;
+}
+
+.songinfo{
+    position:absolute;
+    left:23vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.songinfo img{
+    opacity:0;
+    transition:opacity 0.1s ease-in;
+
+}
